@@ -1,0 +1,8 @@
+{
+    "probability": {
+        "description": "触发自动回复的概率",
+        "type": "float",
+        "hint": "设置自动回复的触发概率，范围0-1，默认0.3",
+        "default": 0.3
+    }
+}

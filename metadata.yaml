@@ -1,0 +1,6 @@
+name: PGR_Dialogue # 这是你的插件的唯一识别名。
+desc: 检测到战双角色时自动发送一条台词。 # 插件简短描述
+help: 输入 /keyword 查看关键词回复帮助。 # 插件的帮助信息
+version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: Kurisuree7 # 作者
+repo: none # 插件的仓库地址
