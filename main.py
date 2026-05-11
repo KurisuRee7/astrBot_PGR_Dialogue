@@ -25,14 +25,6 @@ CHARACTER_MAP_FILE = BASE_DIR / "character_map.json"
 # =========================
 
 def load_character_map():
-    """
-    character_map.json 格式:
-
-    {
-        "Lucia": ["小露", "火露", "露西亚"],
-        "Sanqi": ["三七", "21号"]
-    }
-    """
 
     if not CHARACTER_MAP_FILE.exists():
         logger.warning("character_map.json 不存在")
@@ -59,17 +51,6 @@ CHARACTER_MAP = load_character_map()
 
 def get_random_dialog(character_name: str):
 
-    """
-    character/Lucia.json 格式:
-
-    {
-        "name": "Lucia",
-        "dialogs": [
-            "文本1",
-            "文本2"
-        ]
-    }
-    """
 
     file_path = CHARACTER_DIR / f"{character_name}.json"
 
